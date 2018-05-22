@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gmebtc-web-portal:war">
+    <output-path>$PROJECT_DIR$/gmebtc-web-portal/target</output-path>
+    <root id="archive" name="gmebtc-web-portal.war">
+      <element id="artifact" artifact-name="gmebtc-web-portal:war exploded" />
+    </root>
+  </artifact>
+</component>
