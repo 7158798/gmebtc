@@ -12,6 +12,7 @@
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
+
     <mvc:annotation-driven>
         <mvc:message-converters>
             <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
@@ -49,5 +50,8 @@
         <!-- 最大缓存大小 -->
         <property name="maxInMemorySize" value="500000" />
     </bean>
+
+    <!-- 加载配置属性文件 -->
+    <context:property-placeholder ignore-unresolvable="true" location="classpath:config/system.properties" />
 
 </beans>

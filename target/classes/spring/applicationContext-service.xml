@@ -26,4 +26,13 @@
         </property>
     </bean>
 
+    <!-- 加载本地属性文件 -->
+   <!-- <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:config/system.properties</value>
+            </list>
+        </property>
+    </bean>-->
+
 </beans>
