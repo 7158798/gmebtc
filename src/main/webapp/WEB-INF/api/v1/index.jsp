@@ -10,7 +10,7 @@
 		<meta name="keywords" content="比特币, bitcoin, BTC, Ethereum, 以太坊, litecoin, LTC, ETC, Qtum, 代币, ICO, 交易平台，交易网站，比特币交易，比特币兑换，比特币市场 ">
 		<meta name="format-detection" content="telephone=no">
 		<!--[if lte IE 9]><script type="text/javascript">location.href = '/update.html';</script><![endif]-->
-		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="/css/style.css" rel="stylesheet" type="text/css">
 		<style>
 			.icon-48,
 			.icon-32,

@@ -42,7 +42,7 @@
 	</head>
 
 	<body class="">
-    <%--	<a href="javascript:changeLang('zh_CN');">删除</a>
+    	<%--<a href="javascript:changeLang('zh_CN');">删除</a>
 	<a href="javascript:changeLang('en_US');">修改</a>
 	<a href="/changeLang.html?lang=en_US"><fmt:message key="public.msg1"></fmt:message></a>--%>
 		<div id="siteNoty" class="notification-box">

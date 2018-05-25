@@ -25,19 +25,18 @@
             </bean>
         </mvc:message-converters>
     </mvc:annotation-driven>
-
     <!--配置视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/view/"/>
+        <property name="prefix" value="/WEB-INF/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 
     <!--在执行每个controller之前判断当前的locale-->
     <mvc:interceptors>
         <mvc:interceptor>
-            <mvc:mapping path="/**" />
-            <bean class="com.gmebtc.web.portal.filter.Interceptor" />
-        </mvc:interceptor>
+        <mvc:mapping path="/**" />
+        <bean class="com.gmebtc.web.portal.filter.Interceptor" />
+    </mvc:interceptor>
     </mvc:interceptors>
 
      <!--MultipartFile上传文件使用的-->

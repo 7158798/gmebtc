@@ -269,7 +269,8 @@ var leftbar_data = LocalStorage.get("leftbar_data", !0);
 if(0 != leftbar_data.status || data_expired) $(".btn_selected").append('<div class="load8"><div class="loader">Loading</div></div>'), $.ajax({
 	type: "get",
 	//url: "/json_svr/get_leftbar/?u=128&c=" + Math.floor(1e6 * Math.random()),
-	 url: "${pageContext.request.contextPath}/json_svr/get_leftbar/u128c658006.json",
+	//  url: "${pageContext.request.contextPath}/json_svr/get_leftbar/u128c658006.json",
+	  url: "json_svr/get_leftbar/u128c658006.json",
 	xhrFields: {
 		withCredentials: !0
 	},

@@ -38,7 +38,7 @@ public class Interceptor extends HandlerInterceptorAdapter{
 
 		Locale locale = (Locale) request.getSession().getAttribute(SessionLocaleResolver.LOCALE_SESSION_ATTRIBUTE_NAME);
 		if(null == locale){
-			locale = new Locale("zh", "CN"); 
+			locale = new Locale("zh", "CN");
 			request.getSession().setAttribute(SessionLocaleResolver.LOCALE_SESSION_ATTRIBUTE_NAME, locale);
 		}
 		
