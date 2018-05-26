@@ -51,6 +51,6 @@
     </bean>
 
     <!-- 加载配置属性文件 -->
-    <context:property-placeholder ignore-unresolvable="true" location="classpath:config/system.properties" />
+    <context:property-placeholder ignore-unresolvable="true" location="classpath:config/SysConfig.properties" />
 
 </beans>
