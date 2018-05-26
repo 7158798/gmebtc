@@ -73,7 +73,6 @@ public class CommonUtil {
         String paramStr = param.toString();
         log.info("请求地址：" + postUrl);
         log.info("请求参数：" + paramStr);
-        System.out.println(postUrl + paramStr);
 
 
         //String paramStr =  CryptoUtil.aesEncrypt(paramStr, "12456789");

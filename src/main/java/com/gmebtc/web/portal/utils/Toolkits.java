@@ -625,5 +625,12 @@ public final class Toolkits
 		Pattern p = Pattern.compile(str);
 		Matcher m = p.matcher(email);
 		return m.matches();
-	} 
+	}
+
+	public static boolean isPhone (String phone){
+		String regExp = "^[1]([3][0-9]{1}|59|58|88|89)[0-9]{8}$";
+		Pattern p = Pattern.compile(regExp);
+		Matcher m = p.matcher(phone);
+		return m.matches();
+	}
 }

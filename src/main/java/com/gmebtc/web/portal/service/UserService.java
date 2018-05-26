@@ -1,6 +1,6 @@
 package com.gmebtc.web.portal.service;
 
-import com.gmebtc.web.portal.entiry.User;
+import com.gmebtc.web.portal.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 

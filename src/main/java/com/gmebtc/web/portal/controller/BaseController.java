@@ -1,6 +1,5 @@
 package com.gmebtc.web.portal.controller;
 
-import com.gmebtc.web.portal.entiry.User;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,12 +18,6 @@ import java.util.Map;
 public class BaseController {
 
 
-    private static final String requestData         = "";
-    private static final String requestMode         = "POST";
-    private static final String contentType         = "application/json";
-    private static final String xinputCharset       = "UTF-8";
-    private static final String xoutputCharset      = "UTF-8";
-    private static final String clientOutputCharset = "UTF-8";
 
 
     private static Logger logger = Logger.getLogger(BaseController.class);
@@ -36,9 +29,8 @@ public class BaseController {
      * @return
      */
     @RequestMapping(value = {"/", "index"})
-    public String defaulString(HttpServletRequest request) {
-        Locale locale = (Locale) request.getSession().getAttribute(SessionLocaleResolver.LOCALE_SESSION_ATTRIBUTE_NAME);
-        System.out.println(locale);
+    public String index(HttpServletRequest request) {
+//        Locale locale = (Locale) request.getSession().getAttribute(SessionLocaleResolver.LOCALE_SESSION_ATTRIBUTE_NAME);
         return "/api/v1/index";
     }
 
