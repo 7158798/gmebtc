@@ -2,102 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f349403-2a80-4404-81a1-076bc1d703d1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__opensymphony_sitemesh_2_4_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/result/GlobalResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/result/ResultCode.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gmebtc_web_portal_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/gmebtc_web_portal_war.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gmebtc_web_portal_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/gmebtc_web_portal_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gmebtc-web-portal.iml" afterPath="$PROJECT_DIR$/gmebtc-web-portal.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/controller/BaseController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/controller/BaseController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/entiry/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/entity/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/net/CommonUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/net/CommonUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/service/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/utils/Toolkits.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/utils/Toolkits.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/controller/BaseController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/entiry/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/net/CommonUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/net/CommonUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/service/impl/UserServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/config1.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-service.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring/springmvc.xml" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal.war" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/controller/BaseController.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/controller/UserController.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/entiry/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/net/CommonUtil.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/net/CommonUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/service/UserService.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/service/impl/UserServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/config/config1.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/spring/applicationContext-service.xml" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/spring/springmvc.xml" />
       <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/2budenglv.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/anquanrizhi.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/api.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/apishuoming.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/bangzhuxiangxishuoming.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/bbjy.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/bizhongjieshao.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/bizhongjieshaoshuoming.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/c2c.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/c2cchengjiaojilv.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/caiwubaogao.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/chengjiaojilv.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/chongzhi.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/chongzhima.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/gaojirenzheng.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/gonggao.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/gonggaoxiangqing.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/huilv.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/index2.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/lianxiwomen.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/login.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/login2.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/shenfenrenzheng.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/shimingrenzheng.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/shimingrenzhenghou.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/shoujiyanzheng.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/shuzihuobichongzhi.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/tixian.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/tongzhishezhi.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/tuiguangyongjin.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/wentizhongxin.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/wodegongdan.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/wodeguadan.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/youxiangbangding.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/zhangdanmingxi.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/zhanghuzijin.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/zhaohuimima.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/zhifushezhi.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/zijinmimachongzhi.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/zuijinchongzhijilv.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/view/zuijintixianjilv.jsp" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,8 +17,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+            <state relative-caret-position="315">
+              <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
               <folding>
                 <element signature="e#1414#1429#0" expanded="true" />
               </folding>
@@ -516,12 +421,12 @@
       <workItem from="1527324931165" duration="242000" />
       <workItem from="1527325176210" duration="15000" />
       <workItem from="1527325207613" duration="218000" />
-      <workItem from="1527325439359" duration="5869000" />
+      <workItem from="1527325439359" duration="7265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6344000" />
+    <option name="totallyTimeSpent" value="7740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1938" height="1045" extended-state="0" />
@@ -628,8 +533,8 @@
         <state relative-caret-position="221">
           <caret line="1262" column="17" lean-forward="true" selection-start-line="1262" selection-start-column="17" selection-end-line="1262" selection-end-column="17" />
           <folding>
-            <element signature="e#21591#21592#0" expanded="true" />
-            <element signature="e#21636#21637#0" expanded="true" />
+            <element signature="e#21591#21592#0" expanded="false" />
+            <element signature="e#21636#21637#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -688,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        <state relative-caret-position="315">
+          <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
           <folding>
             <element signature="e#1414#1429#0" expanded="true" />
           </folding>
