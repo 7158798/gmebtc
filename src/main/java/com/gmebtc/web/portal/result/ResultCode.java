@@ -14,9 +14,12 @@ public class ResultCode {
     public static final int CODE_ERROR_7 =-7;                     //验证码错误
     public static final int CODE_ERROR_8=-8;                     //原密码错误
     public static final int CODE_ERROR_9 =-9;                     //手机号为空
-    public static final int CODE_ERROR_10 =-10;                     //邮箱未激活
+    public static final int CODE_ERROR_10 =-10;                     //邮箱为空
     public static final int CODE_ERROR_11 =-11;                     //手机验证码为空
     public static final int CODE_ERROR_12 =-12;                     //手机绑定失败
+    public static final int CODE_ERROR_13 =-13;                     //手机号格式错误
+    public static final int CODE_ERROR_14 =-14;                     //邮箱或者手机号为空
+    public static final int CODE_ERROR_15 =-15;                     //验证码类型为空
 
     public static final int CODE_ERROR = -1000;               //其他错误
     public static final int CODE_ERROR_UN_LOGIN=-99;          //未登录

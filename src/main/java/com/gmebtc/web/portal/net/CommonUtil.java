@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @param <T>
+ * @param
  * @Description: 封装API消息头 和 连接后台服务
  * @Author : Jinny.Ding
  * @Date: 2016年10月1日 下午3:50:25
@@ -23,7 +23,7 @@ import java.util.Map;
  */
 public class CommonUtil {
 
-    public static final String url = ConfigUtil.get("service.site");
+    public static final String url = ConfigUtil.get("SERVICE_SITE");
 
     private static Logger log = Logger.getLogger(CommonUtil.class);
 
@@ -40,8 +40,11 @@ public class CommonUtil {
         return getResultJson(data, request, method, "");
     }
 
+    public static ResultJson getResultJson(HttpServletRequest request, String method) throws UnsupportedEncodingException {
+        return getResultJson(request, method, "");
+    }
     /**
-     * @param commonHead
+     * @param
      * @return
      * @throws UnsupportedEncodingException
      * @description 连接后台服务
@@ -77,6 +80,33 @@ public class CommonUtil {
 
         //String paramStr =  CryptoUtil.aesEncrypt(paramStr, "12456789");
         //logger.info("加密后的参数：" + paramStr);
+        doPost(resultJson, param, postUrl);
+        return resultJson;
+    }
+
+    public static ResultJson getResultJson(HttpServletRequest request, String method, String reqUrl) throws UnsupportedEncodingException {
+        ResultJson resultJson = new ResultJson(true);
+        //HttpSession session = request.getSession();
+        Map<String, String> param = getCommonHead(request, method);
+        String postUrl = "";
+        if ("".equals(reqUrl) && !"".equals(method)) {
+            postUrl = url + method;
+        } else {
+            postUrl = reqUrl;
+        }
+
+        String paramStr = param.toString();
+        log.info("请求地址：" + postUrl);
+        log.info("请求参数：" + paramStr);
+
+
+        //String paramStr =  CryptoUtil.aesEncrypt(paramStr, "12456789");
+        //logger.info("加密后的参数：" + paramStr);
+        doPost(resultJson, param, postUrl);
+        return resultJson;
+    }
+
+    private static void doPost(ResultJson resultJson, Map<String, String> param, String postUrl) {
         try {
             HttpData httpData = HttpTookit.doPost(postUrl, param, "utf-8", true);
             Integer statusCode = httpData.getStatusCode();
@@ -103,9 +133,7 @@ public class CommonUtil {
             resultJson.setSuccess(false);
             resultJson.setData(resultObject);
         }
-        return resultJson;
     }
-
 
     /**
      * 封装API消息头

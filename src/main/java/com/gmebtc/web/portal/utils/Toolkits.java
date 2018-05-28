@@ -26,7 +26,7 @@ public final class Toolkits
 {
 	private static final Logger logger = Logger.getLogger(Toolkits.class);
 	private static final JsonParser jsonParser = new JsonParser();
-	private static final ResourceBundle systemPropertyBundle = ResourceBundle.getBundle("com/bfc/config/context");
+	private static final ResourceBundle systemPropertyBundle = ResourceBundle.getBundle("context");
 	private static Gson gson = null;
 
 	static

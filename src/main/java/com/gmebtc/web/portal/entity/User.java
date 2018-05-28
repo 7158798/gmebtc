@@ -4,15 +4,27 @@ import java.io.Serializable;
 
 public class User implements Serializable{
     private Integer id;
+    /* 手机号码*/
     private String phoneNumber;
+    /* 区号*/
     private String countryCode;
+    /* 手机验证码*/
     private String phoneCode;
+    /* 登录密码*/
     private String password;
+    /* 资金密码*/
     private String PayPassword;
+    /* 推荐人ID*/
     private String refereeId;
+    /* 邮箱*/
     private String email;
-    private String verifyCode;
-    
+    /* 图像验证码*/
+    private String checkCode;
+    /* 手机号或者邮箱*/
+    private String userName;
+    /* 发送的短信验证码类型*/
+    private Integer type;
+
     public Integer getId() {
         return id;
     }
@@ -78,27 +90,28 @@ public class User implements Serializable{
         this.email = email;
     }
 
-    public String getVerifyCode() {
-        return verifyCode;
+    public String getCheckCode() {
+        return checkCode;
     }
 
 
-    public void setVerifyCode(String verifyCode) {
-        this.verifyCode = verifyCode;
+    public void setCheckCode(String checkCode) {
+        this.checkCode = checkCode;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", countryCode='" + countryCode + '\'' +
-                ", phoneCode='" + phoneCode + '\'' +
-                ", password='" + password + '\'' +
-                ", PayPassword='" + PayPassword + '\'' +
-                ", refereeId='" + refereeId + '\'' +
-                ", email='" + email + '\'' +
-                ", verifyCode='" + verifyCode + '\'' +
-                '}';
+    public String getUserName() {
+        return userName;
     }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
 }
