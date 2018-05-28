@@ -6,51 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f349403-2a80-4404-81a1-076bc1d703d1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/service/impl/UserRegisterServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config/spring-control.properties" />
+    <list default="true" id="7f349403-2a80-4404-81a1-076bc1d703d1" name="Default" comment="zhou 5/28 晚21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gmebtc-web-portal.iml" afterPath="$PROJECT_DIR$/gmebtc-web-portal.iml" />
-      <change beforePath="$PROJECT_DIR$/src/config.properties" afterPath="$PROJECT_DIR$/src/config.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/controller/UserRegisterController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/entity/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/net/CommonUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/net/CommonUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/result/ResultCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/result/ResultCode.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/service/impl/UserServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/utils/Toolkits.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/utils/Toolkits.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/SysConfig.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/context.properties" afterPath="$PROJECT_DIR$/src/context.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/controller/UserController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/entity/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/net/CommonUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/net/CommonUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/result/GlobalResult.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/result/GlobalResult.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/service/impl/UserServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/utils/Toolkits.class" afterPath="$PROJECT_DIR$/target/classes/com/gmebtc/web/portal/utils/Toolkits.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/SysConfig.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/context.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/config/SysConfig.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/config/context.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-service.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring/springmvc.xml" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/controller/UserController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/entity/User.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/entity/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/net/CommonUtil.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/net/CommonUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/result/GlobalResult.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/result/GlobalResult.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/service/UserService.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/service/impl/UserServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/utils/Toolkits.class" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/com/gmebtc/web/portal/utils/Toolkits.class" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/config.properties" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/config.properties" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/config/SysConfig.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/config/context.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/main/resources/config/SysConfig.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/main/resources/config/context.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/spring/applicationContext-service.xml" />
-      <change beforePath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/target/gmebtc-web-portal/WEB-INF/classes/spring/springmvc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +58,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="189">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="e#608#609#0" expanded="true" />
                 <element signature="e#633#634#0" expanded="true" />
@@ -187,6 +144,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -680,12 +648,20 @@
       <workItem from="1527324931165" duration="242000" />
       <workItem from="1527325176210" duration="15000" />
       <workItem from="1527325207613" duration="218000" />
-      <workItem from="1527325439359" duration="39707000" />
+      <workItem from="1527325439359" duration="40516000" />
     </task>
+    <task id="LOCAL-00001" summary="zhou 5/28 晚21">
+      <created>1527512968588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527512968588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40182000" />
+    <option name="totallyTimeSpent" value="40991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1938" height="1045" extended-state="0" />
@@ -765,6 +741,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zhou 5/28 晚21" />
+    <option name="LAST_COMMIT_MESSAGE" value="zhou 5/28 晚21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1154,8 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmebtc/web/portal/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="e#608#609#0" expanded="true" />
             <element signature="e#633#634#0" expanded="true" />
